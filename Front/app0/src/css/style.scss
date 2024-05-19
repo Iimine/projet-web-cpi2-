@@ -1,0 +1,178 @@
+.pages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   background-image:url("https://img.freepik.com/vecteurs-libre/abstrait-arriere-plan-bleu-vecteur-points-connectes-chaotically-polygones-volant-dans-espace-debris-volants-carte-style-technologique-futuriste-lignes-points-cercles-avions-conception-futuriste_1217-654.jpg?t=st=1713913558~exp=1713917158~hmac=708b8f7b982e1be90a99ab2d0ac13da42cc8d5d3b8554ccfc596170ce611b8a9&w=740"); /* Remplacez "chemin/vers/votre/image.jpg" par le chemin de votre image de fond */
+    background-size: cover;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent pour rendre le formulaire plus lisible */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre pour donner du relief */
+   background-image: url("https://images.app.goo.gl/h5MtiJri2G9fgpWN7");
+}
+
+.form-container h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    font-size: 1.2rem;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333; /* Bordure sous les champs de formulaire */
+    background-color: transparent; /* Fond transparent pour s'adapter à l'arrière-plan */
+    transition: border-color 0.3s ease; /* Animation de transition pour la bordure */
+}
+
+.form-container input:focus {
+    border-color: #666; /* Changement de couleur de la bordure lorsque le champ est en focus */
+    outline: none; /* Supprime la bordure de focus par défaut */
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Animation de transition pour la couleur de fond */
+}
+
+.form-container button:hover {
+    background-color: #555; /* Changement de couleur de fond au survol */
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo img {
+    width: 300px;
+    gap:20px;
+
+    
+    
+}
+
+.links a {
+    color: rgb(206, 38, 38);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.extras {
+    margin-left: auto;
+}
+
+.extras ul {
+    list-style: none;
+    padding: 0;
+}
+
+.extras li {
+    margin-bottom: 10px;
+}
+
+/* Vous pouvez ajouter plus de styles selon vos besoins */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo,
+.links,
+.additional-info {
+    flex: 1;
+}
+
+.logo img {
+    width: 50px; /* Ajustez la taille de l'image selon vos besoins */
+    margin-bottom: 10px;
+}
+
+.links p,
+.additional-info p {
+    margin: 0;
+}
+
+/* Styles supplémentaires selon vos besoins */
+
+
+/* Styles supplémentaires selon vos besoins */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-image: url("https://img.freepik.com/photos-gratuite/paysage-palmiers-3d-contre-ciel-coucher-soleil_1048-18610.jpg?t=st=1713914448~exp=1713918048~hmac=72af64209838d2cbc4235215744af03031682b908692ffbaafd4abe603c8a805&w=740");
+
+}
+
+
+.post {
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: #f9f9f96e;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex; /* Utilise Flexbox pour aligner les éléments */
+    flex-direction: column; /* Aligner les éléments verticalement */
+}
+
+.image {
+    width: 100%;
+    height: 300px; /* Hauteur fixe pour la zone de l'image */
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex; /* Utilise Flexbox pour aligner l'image */
+    align-items: center; /* Centrer verticalement l'image */
+    justify-content: center; /* Centrer horizontalement l'image */
+}
+
+.image img {
+    max-width: 100%; /* Empêcher l'image de déborder de son conteneur */
+    max-height: 100%; /* Empêcher l'image de déborder de son conteneur */
+    object-fit: contain; /* Ajuster l'image pour être entièrement visible */
+}
+
+.title-desc {
+    padding: 15px;
+}
+
+.title-desc h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.title-desc p {
+    margin: 0;
+}
